@@ -15,6 +15,7 @@ EXPOSE 80
 
 # Define environment variable
 ENV NAME World
+USER malcolm
 
 LABEL workflow-testing-4 2nd-label-test
 # Run app.py when the container launches
